@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+      .heading{
+        background-image: linear-gradient(to right,violet,rgb(154, 233, 233));
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+      }
+        .exercise{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 8%;
+            background-image:linear-gradient(to right,violet,rgb(154, 233, 233)) ;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        .exercise-name{
+            width: 15vw;
+            height: 35vh;
+            background-image: linear-gradient(45deg,#f9957f,rgb(233, 233, 107));
+            border-radius: 10px;
+           padding: 10px;
+        }
+        .left{
+            animation: slideleft 4s 1 alternate ;
+        }
+        .exercise-name ul{
+            padding: 20px;
+        }
+
+        @keyframes slideleft{
+            from{
+                transform: translateX(100vw);
+            }
+            to{
+
+                transform: translateX(0px);
+            }
+        }
+        .right{
+            animation: slideright 4s 1 alternate;
+        }
+        @keyframes slideright{
+            from{
+                transform: translateX(-100vw);
+            }
+            to{
+
+                transform: translateX(0px);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading"><h1> Exercise Related for Intermediate</h1></div>
+    <div class="exercise">
+        <div class="exercise-name left">
+            <h1>Day 1</h1>
+            
+            <h2>Chest and triceps</h2>
+            
+            <ul>
+                <li>Flat bench press</li>
+                <li>Incline bench press</li>
+                <li>Decline bench press</li>
+                <li>Cable fly</li>
+                <li>Tri push-down</li>
+                <li>Overhead dumbell-press</li>
+                <li>Rop push-down</li>
+            </ul>
+        </div>
+        <div class="exercise-name right">
+            <h1>Day 2</h1>
+            
+            <h2>Back and Biceps</h2>
+            <ul>
+                <li>Lat pull down</li>
+                <li>Seated row</li>
+                <li>Deadlift</li>
+                <li>Landmine row</li>
+                <li>Hammer curl</li>
+                <li>Biceps curl</li>
+                <li>forearm curl</li>
+            </ul>
+        </div>
+        <div class="exercise-name left">
+            <h1>Day 3</h1>
+            <h2>Shoulder and Leg</h2>
+            <ul>
+                
+                <li>Arnold press</li>
+                <li>Front raises</li>
+                <li>Side raises</li>
+                <li>Shrugs</li>
+                <li>Leg Extension</li>
+                <li>Squat</li>
+                <li>Lunges</li>
+            </ul>
+        </div>
+        <div class="exercise-name right">
+            <h1>Day 4</h1>
+            <h2>Chest and triceps</h2>
+            
+            <ul>
+                <li>Flat bench press</li>
+                <li>Incline bench press</li>
+                <li>Decline bench press</li>
+                <li>Cable fly</li>
+                <li>Tri push-down</li>
+                <li>Overhead dumbell-press</li>
+                <li>Rop push-down</li>
+            </ul>
+        </div>
+        <div class="exercise-name left">
+            <h1>Day 5</h1>
+            <h2>Back and Biceps</h2>
+            <ul>
+                <li>Lat pull down</li>
+                <li>Seated row</li>
+                <li>Deadlift</li>
+                <li>Landmine row</li>
+                <li>Hammer curl</li>
+                <li>Biceps curl</li>
+                <li>forearm curl</li>
+            </ul>
+        </div>
+        <div class="exercise-name right">
+            <h1>Day 6</h1>
+            <h1>Shoulder and Leg</h1>
+            <ul>
+                
+                <li>Arnold press</li>
+                <li>Front raises</li>
+                <li>Side raises</li>
+                <li>Shrugs</li>
+                <li>Leg Extension</li>
+                <li>Squat</li>
+                <li>Lunges</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

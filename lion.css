@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh; 
+    background-image: url("images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    color: white;
+}
+.nav-container{
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    justify-content: space-between; 
+    
+}
+.logo{
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.logo:hover{
+    box-shadow: 0px 0px 30px white;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-top: 5%;
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    padding:10px 20px ;
+    transition: 0.5s ease;
+}
+.navbar a:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px white;
+    background-color: aqua;
+}
+
+.content{
+    padding-left: 10%;
+    font-size: 50px;
+}
+
+.content h1{
+    padding-top:8% ;
+    color: white;
+    
+}
+.content h2{
+    color: aqua;
+    padding-bottom: 5%; 
+   
+}
+
+.box{
+    background-image:linear-gradient(to right, violet,white); 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4%;
+    height: 300px;
+    align-items: end;
+}
+.card{
+    width: 15vw;
+    height: 35vh;
+    background-image:linear-gradient(violet,white) ;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 1s ease;
+}
+.trainer h1{
+    padding-top: 4%;
+    background-image: linear-gradient(to right,violet,white);
+    text-align: center;
+}
+.card h2{
+    font-weight: 600;
+    text-align: center;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.card:hover{
+    transform: scale(1.1);   
+}
+
+.image{
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+/* REgistration form */
+
+.enroll{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.form{
+    background-image: linear-gradient(to right, #ea8d8d, #a890fe);
+    border: none;
+    border-radius: 10px;
+    width: 40vw;
+    margin-left: 27vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+     padding: 20px; 
+    justify-content: space-between;
+}
+
+.info{
+    border: none;
+    padding: 7px;
+    width: 15vw;
+    height: 30px;
+    border-radius: 8px;
+    transition: transform 1s ease;
+}
+.info p{
+    padding-bottom: 5px;
+}
+ #btn{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,violet,#ffdde1);
+} 
+.info:hover{
+    transform: scale(1.05);
+}
+
+.lion{
+   width: 100vw;
+   height: 150vh;
+   background-image: linear-gradient(to right,#f9957f,#f2f5d0);
+}
+.style-background{
+    width: 80vw;
+
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10vw;
+}
+.sandeep-bhaiya{
+    width: 250px;
+    border-radius: 50%;
+}
+.about-text{
+    width: 30vw;
+    color: white;
+    
+}
+.about-text h3 {
+     padding:8% ;
+}
+.about-text h4{
+    padding-left: 8%;
+}
+.lion h2{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 4%;
+
+}
+
+.about-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-item{
+    width: 15vw;
+    height: 35vh;
+    background-image:linear-gradient(#ead6ee,#a0f1ea) ;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 1s ease;
+    
+}
+.about-item:hover{
+    transform: scale(1.1);
+}
+        
+  .about-item p{
+    padding-top:10px ;
+  }  
+
+   .item1{
+    animation: downup3 3s 1 ;
+     animation-delay: 4s; 
+  } 
+  .item2{
+    animation: downup2 4.5s 1 ;
+    animation-delay: 3.8s; 
+  } 
+  .item3{
+    animation: downup 4s 1 ;
+     animation-delay: 3s; 
+  }
+
+
+
+  @keyframes downup{
+    from{
+        transform: translateX(-1139px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+  }
+  @keyframes downup2{
+    from{
+        transform: translateX(-950px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+  } 
+  @keyframes downup3{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+  } 
+
+  .program{
+
+    background-image: linear-gradient(to right,#f9957f,#f2f5d0);
+  }
+  .program h1{
+    text-align: center;
+    
+  }
+  .program h3{
+    text-align: center;
+    
+  }
+ .flex-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+    box-shadow: 0px 0px 100px rgb(194, 232, 232);
+ }
+ .color{
+    width: 500px;
+    background-color: #f9957f;
+   padding: 20px;
+  
+ }
+ .img{
+    width: 450px;
+    border-radius: 50%;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px; 
+ }
+ .color h3{
+    padding: 4%;
+ }
+ .flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 52vw;
+    background-image: linear-gradient(to right,#f9957f,#f2f5d0);
+    overflow: hidden;
+}
+ .flex-item1{
+    width: 15vw;
+    height: 35vh;
+    background-image: url(images/beginner.jpeg);
+    background-size: cover;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 530px;
+    animation: slideright 5s 0s alternate;
+ }
+ 
+ .flex-item2{
+    background-image: url(images/intermediate.jpeg);
+    background-size: cover;
+    width: 15vw;
+    height: 35vh;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 530px;
+    animation: slideright 6s 0s alternate;
+ }
+ .flex-item3{
+    background-image: url(images/advance.jpeg);
+    background-size: cover;
+    width: 15vw;
+    height: 35vh;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 530px;
+    animation: slideright 7s 0s alternate;
+ }
+ @keyframes slideright{
+    from{
+        transform: translateX(-700px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+ }
+ @keyframes slideright{
+    from{
+        transform: translateX(-800px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes slideright{
+    from{
+        transform: translateX(-900px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}

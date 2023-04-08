@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        body{
+            background-image: url(images/risen-wang-20jX9b35r_M-unsplash.jpg); 
+            background-size: cover;
+           }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .heading{
+            margin: 30px;
+            color: white;
+            text-align: center;
+            animation: slidedown 4s 1 alternate ;
+        }
+      
+        /* .info{
+            font-weight: 600;
+        } */
+        .form{
+            color: white;
+            margin: auto;
+            width: 40vw;
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url(images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+            background-size: cover;
+            /* background-color: red; */
+            justify-content: space-between;
+            padding: 20px;
+            border-radius: 15px;
+            animation: slidedown 4s 1 alternate ;
+        }
+        .box{
+            width: 15vw;
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: none;
+            padding: 7px;
+            transition: 1s ease;
+        }
+        .request{
+            width: 40vw;
+            height: 10vh;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            border: none;
+            transition: all 1s ease;
+            padding-left:7px ;
+        }
+      .btn{
+         margin-left: 12vw; 
+        padding: 10px 70px;
+        background-image:linear-gradient(to right,rgb(230, 81, 81),rgb(135, 255, 255)) ;
+        border-radius: 5px;
+        border: none;
+        font-weight: 600;
+        transition: 1s ease;
+      }
+
+      .box:hover{
+        transform: scale(1.07);
+      }
+      .request:hover{
+        transform: scale(1.03);
+      }
+      .btn:hover{
+        transform: scale(1.07);
+      }
+     
+      @keyframes slidedown{
+         from{
+            transform: translateY(-50vw);
+         }  
+         to{
+            transform: translateY(0vw);
+         } 
+      }
+     
+    
+
+    </style>
+   
+</head>
+<body>
+
+    <div class="heading">
+        <h2>For any Quiery</h2>
+        <h1>Please contact us through e-mail</h1>
+    </div>
+   <div class="form">
+    <div class="info">
+        <h3>First name</h3>
+        <input type="text"  class="box">
+    </div>
+
+    <div class="info">
+        <h3>Last name</h3>
+        <input type="text"  class="box">
+    </div>
+
+    <div class="info">
+        <h3>E-Mail</h3>
+        <input type="text" class="box">
+    </div>
+
+    <div class="info">
+        <h3>Contact no.</h3>
+        <input type="text" class="box">
+    </div>
+
+    <div class="info">
+        <h3>Type message</h3>
+        <input type="text" placeholder="Type your message"  class="request">
+    </div>
+
+    <div >
+        <button class="btn">
+            <p >Send mail</p>
+        </button>
+    </div>
+   </div>
+
+   
+
+</body>
+</html>
